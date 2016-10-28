@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGICA DE NEGOCIOS", "LOGIC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "verticalproduccion", "..\verticalproduccion\verticalproduccion\verticalproduccion.csproj", "{5F60A349-2838-4134-9528-449444B5E94B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsServerVertical", "..\wsSefverVertical\wsSefverVertical\wsServerVertical.csproj", "{DFC933AB-B7EA-4BD0-88F7-B67D2B6CDAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instaladorServidor", "instaladorServidor\instaladorServidor.csproj", "{2D514B56-646E-401F-A38E-6D9DC5037E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5F60A349-2838-4134-9528-449444B5E94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F60A349-2838-4134-9528-449444B5E94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F60A349-2838-4134-9528-449444B5E94B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC933AB-B7EA-4BD0-88F7-B67D2B6CDAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC933AB-B7EA-4BD0-88F7-B67D2B6CDAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC933AB-B7EA-4BD0-88F7-B67D2B6CDAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC933AB-B7EA-4BD0-88F7-B67D2B6CDAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D514B56-646E-401F-A38E-6D9DC5037E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D514B56-646E-401F-A38E-6D9DC5037E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D514B56-646E-401F-A38E-6D9DC5037E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D514B56-646E-401F-A38E-6D9DC5037E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
