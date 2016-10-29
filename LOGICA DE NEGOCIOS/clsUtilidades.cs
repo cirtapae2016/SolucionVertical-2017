@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 
 namespace LOGICA_DE_NEGOCIOS
 {
-    class clsUtilidades
+    public class clsUtilidades
     {
         public static DataSet Ejecutar(string cmd)
         {

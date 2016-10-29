@@ -35,7 +35,12 @@ namespace instaladorServidor
                                     MessageBoxIcon.Error,
                                     MessageBoxDefaultButton.Button1);
 
-                
+                clsCodificacion Seg = new clsCodificacion();
+
+
+
+
+                Seg = null;
 
             }
             HWK = null;
@@ -52,6 +57,7 @@ namespace instaladorServidor
                     txtMail.ForeColor = Color.Black;
                     clsSeguridad HWK = new clsSeguridad();
                     txtHWK.Text = HWK.CrearInstalacion(HWK.getCadenaHWK(vEmpresa,txtMail.Text));
+                   
                     txtDecifrado.Text = Seg.descifrar(txtHWK.Text);
                     HWK = null;
                 }
