@@ -112,6 +112,8 @@ namespace LOGICA_DE_NEGOCIOS
                 key.SetValue(ValueName1, muestra1);
                 key.Close();
 
+                // comunicarse con el WebServer y grabaar datos d cliente en la web
+
             }
 
             key = null;
