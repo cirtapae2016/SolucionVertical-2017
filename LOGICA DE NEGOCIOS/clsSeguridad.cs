@@ -68,19 +68,21 @@ namespace LOGICA_DE_NEGOCIOS
         private string ValueName1 = "AUTHT";
         public int VerificaInstalacion()
         {
-           
+            int reT = 0;
             RegistryKey key;
             key = Registry.CurrentUser.OpenSubKey(KeyPath, true);
             if (key == null)
                 {
-                   return 1;
+                reT = 1;
+                   return reT;
                 }
             else
                 {
-                return 0;
+                reT = 1;
+                return reT;
             }
             key.Close();
-            key = null;
+            
          
         }
         public string CrearInstalacion(string vClaveServer)
