@@ -63,6 +63,12 @@ namespace LOGICA_DE_NEGOCIOS
             string mac = (from o in objects orderby o["IPConnectionMetric"] select o["MACAddress"].ToString()).FirstOrDefault();
             return mac;
         }
+        public string GetServerName()
+        {
+            string strHostName = Dns.GetHostName();
+            return strHostName;
+        }
+
         private string KeyPath = "Software\\HPFVertical";
         private string ValueName = "Hardware Key";
         private string ValueName1 = "AUTHT";

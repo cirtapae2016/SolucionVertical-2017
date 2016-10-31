@@ -22,7 +22,11 @@ namespace instaladorServidor
         {
             clsSeguridad HWK = new clsSeguridad();
             txtServerIp.Text = HWK.IPMaquina;
-          
+
+
+            MessageBox.Show(HWK.GetServerName());
+
+
             int vVer = HWK.VerificaInstalacion();
             if (vVer == 0)
             {
@@ -50,6 +54,7 @@ namespace instaladorServidor
         {
             clsCodificacion Seg = new clsCodificacion();
             string vEmpresa = txtEmpresa.Text;
+           
             if (vEmpresa.Length>10)
             {
                 if (Seg.ComprobarFormatoEmail(txtMail.Text))
@@ -58,7 +63,7 @@ namespace instaladorServidor
                     clsSeguridad HWK = new clsSeguridad();
                     txtHWK.Text = HWK.CrearInstalacion(HWK.getCadenaHWK(vEmpresa,txtMail.Text));
                    
-                    txtDecifrado.Text = Seg.descifrar(txtHWK.Text);
+                    //txtDecifrado.Text = Seg.descifrar(txtHWK.Text);
                     HWK = null;
                 }
                 else
