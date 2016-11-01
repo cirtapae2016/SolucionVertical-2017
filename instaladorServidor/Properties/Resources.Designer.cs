@@ -63,6 +63,36 @@ namespace instaladorServidor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_LiberacionLicencia {
+            get {
+                object obj = ResourceManager.GetObject("boton_LiberacionLicencia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cerrar {
+            get {
+                object obj = ResourceManager.GetObject("cerrar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap INSTALACION_SERVER_2 {
+            get {
+                object obj = ResourceManager.GetObject("INSTALACION SERVER 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INSTALACIONSERVER1 {
             get {
                 object obj = ResourceManager.GetObject("INSTALACIONSERVER1", resourceCulture);
@@ -76,6 +106,16 @@ namespace instaladorServidor.Properties {
         internal static System.Drawing.Bitmap logohpf {
             get {
                 object obj = ResourceManager.GetObject("logohpf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password_icono_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("password_icono-200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

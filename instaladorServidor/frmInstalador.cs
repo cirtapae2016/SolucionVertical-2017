@@ -17,17 +17,13 @@ namespace instaladorServidor
         {
             InitializeComponent();
         }
-
+        
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             clsSeguridad HWK = new clsSeguridad();
-            txtServerIp.Text = HWK.IPMaquina;
-
-
-            MessageBox.Show(HWK.GetServerName());
-
-
+            txtServerIp.Text = HWK.GetServerName();
             int vVer = HWK.VerificaInstalacion();
+            txtHWK.ReadOnly = true;
             if (vVer == 0)
             {
                 btnSolicitar.Enabled = false;
@@ -88,6 +84,21 @@ namespace instaladorServidor
             }
             Seg = null;
            
+        }
+
+        private void txtHWK_Click(object sender, EventArgs e)
+        {
+            txtHWK.SelectAll();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("En construccion");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
